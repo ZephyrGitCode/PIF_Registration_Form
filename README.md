@@ -4,6 +4,6 @@ The group repository for team PIF.
 
 Team Members:
 
-Zephyr Dobson
-Anthony Thai
+Zephyr Dobson,
+Anthony Thai,
 Lucas Chen
