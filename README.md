@@ -29,6 +29,3 @@ a. As a team, create a shared form stylesheet for your website. It should be reu
 Upload this to a team github repository
 
 3. Download prac details from the Assessment Overview page.
-
-4. Dont be a DICK
-
