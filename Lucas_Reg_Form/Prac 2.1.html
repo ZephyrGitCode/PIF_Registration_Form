@@ -1,54 +1,50 @@
 <!DOCTYPE html>
 <html lang=en>
 <head>
-<link rel="stylesheet" type="text/css" href="Prac2.1.css">
-<title>Registration Form</title>
-
+  <link rel="stylesheet" type="text/css" href="Prac2.1.css">
+  <title>Registration Form</title>
 </head>
+
 <body>
+  <div class="header">
+    <header>
+      <h1>Registration Form</h1>
+    </header>
+  </div>
 
-<header>
-  <h1>Registration Form</h1>
-</header>
+  <div class="form">
+    <fieldset>
+      <legend>Applicant Information</legend>
 
-<form>
-  <fieldset>
-      <legend>Application Information</legend>
-      <input class="sansserif" type="radio" name="gender" value="male" checked> Male<br>
-      <input class="sansserif" type="radio" name="gender" value="female"> Female<br>
-      <input class="sansserif" type="radio" name="gender" value="other"> Other <br>
+      <input type="radio" name="gender" value="male"> Male<br>
+      <input type="radio" name="gender" value="female"> Female<br>
+      <input type="radio" name="gender" value="other"> Other <br>
       First name:<br>
-      <input class="sansserif" type='text' value=''>
+      <input class="firstname" type='text' value=''>
       <br>
-
       Last name:<br>
-      <input class="sansserif" type='text' value=''>
+      <input class="lastname" type='text' value=''>
       <br>
-
       Address:<br>
-      <input class="sansserif" type='text' value=''>
+      <input class="address" type='text' value=''>
       <br>
-
       Email:<br>
-      <input class="sansserif" type='text' value=''>
+      <input class="email" type='text' value=''>
       <br>
-
       Date of Birth:<br>
-      <input class="sansserif" type='text' value=''>
+      <input class="dateofbirth" type='text' value=''>
       <br>
-
       Preferred Contact:<br>
-      <input class="sansserif" type='radio' name='contact' value='mobile'> Mobile:<br>
-      <input class="sansserif" type='text' value=''>
+      <input type='radio' name='contact' value='mobile'> Mobile:<br>
+      <input class='mobile' type='text' value=''>
       <br>
-      <input class="sansserif" type='radio' name='contact' value='home'> Home:<br>
-      <input class="sansserif" type='text' value=''>
-      <br>
-      <br>
-      <input class="sansserif" type="submit" value="Submit">
+      <input type='radio' name='contact' value='home'> Home:<br>
+      <input class='home' type='text' value=''>
+      <hr>
+      <input class="submitbtn" type="submit" value="Submit">
 
-  </fieldset>
-</form>
+    </fieldset>
+  </div>
 
 
 </body>

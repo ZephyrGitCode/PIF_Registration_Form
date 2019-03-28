@@ -1,33 +1,11 @@
 html {
   background-color: #ace5ee;
-
 }
 
-header {
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  font-family: Calibri;
-  font-size: 15px ;
-  padding: 1px;
-  color: black;
-  background-color: #ace5ee;
-  clear: left;
+h1 {
   text-align: center;
-
-}
-
-button, input, select {
-  border-radius: 10px;
+  font-size: 50px ;
   font-family: Calibri;
-  font-size: 100%;
-  background-color: white;
-
-}
-
-input:focus {
-  background-color: #FFCC99;
-
 }
 
 fieldset {
@@ -37,8 +15,40 @@ fieldset {
   border-width: 10px;
   border-color: #FFCC99;
   font-family: Calibri;
-  font-size: 25px;
+  font-size: 35px;
   padding-bottom: 10px;
   padding-top: 10px;
+
+}
+
+input.firstname, .lastname, .address, .email, .dateofbirth, .mobile, .home {
+  width: 100%;
+  border-radius: 20px;
+  font-family: Calibri;
+  font-size: 25px;
+  background-color: white;
+
+}
+
+input:focus {
+  background-color: #FFCC99;
+
+}
+
+.submitbtn {
+  background-color: #FFCC99;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Calibri;
+
+}
+
+.submitbtn:hover {
+  opacity: 0.4;
 
 }
