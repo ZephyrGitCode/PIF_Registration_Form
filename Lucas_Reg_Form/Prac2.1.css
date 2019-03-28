@@ -1,0 +1,44 @@
+html {
+  background-color: #ace5ee;
+
+}
+
+header {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Calibri;
+  font-size: 15px ;
+  padding: 1px;
+  color: black;
+  background-color: #ace5ee;
+  clear: left;
+  text-align: center;
+
+}
+
+button, input, select {
+  border-radius: 10px;
+  font-family: Calibri;
+  font-size: 100%;
+  background-color: white;
+
+}
+
+input:focus {
+  background-color: #FFCC99;
+
+}
+
+fieldset {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-width: 10px;
+  border-color: #FFCC99;
+  font-family: Calibri;
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
